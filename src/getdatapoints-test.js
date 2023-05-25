@@ -23,4 +23,4 @@ export default function () {
         'response body has metals': (r) => r.body.includes('LME-CU', 'LME-SN', 'LME-CO'),
     })
     console.log(res.timings.duration + 'ms' + "VU" + __VU);
-}
+};
